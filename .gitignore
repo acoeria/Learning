@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ================================
+# Academic reports (private data)
+# ================================
+
+# Ignore all reports by default
+IDZ/**/report/*
+
+# Allow README inside report folder
+!IDZ/**/report/README.md
+
+# Common report / document formats
+*.doc
+*.docx
+*.pdf
+*.odt
+*.rtf
+
+# Archives with personal data
+*.zip
+*.7z
+*.rar
+
+# Generated datasets / exports (optional safety)
+output/
+generated/
+exports/
