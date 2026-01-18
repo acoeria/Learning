@@ -218,7 +218,6 @@ IDZ/**/report/*
 # Common report / document formats
 *.doc
 *.docx
-*.pdf
 *.odt
 *.rtf
 
