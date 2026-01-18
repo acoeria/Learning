@@ -210,7 +210,7 @@ __marimo__/
 # ================================
 
 # Ignore all reports by default
-IDZ/**/report/*
+!IDZ/**/report/*.pdf
 
 # Allow README inside report folder
 !IDZ/**/report/README.md
