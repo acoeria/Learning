@@ -1,19 +1,35 @@
-# IDZ-1 (Variant 6)
+# ИДЗ-1 (вариант 6)
 
-Processing a dataset using Python:
-- generate CSV with 10^6 rows and 5 columns (time, func1..func4)
-- compute average of column 2 (func1)
-- plot func2 and func3 vs time
-- plot medians of func4 in 10 blocks of 10^5 rows
+Индивидуальное домашнее задание №1
 
-## Structure
-- `src/` — scripts
-- `data/` — datasets (full dataset generated locally)
-- `figures/` — plots
-- `report/` — redacted report (no title page / personal data)
+## Постановка задачи
 
-## How to run
-1. Generate dataset: run `src/Генерация CSV.py`
-2. Average: run `src/Среднее по колонке 2.py`
-3. Plot func2/func3: run `src/График значений для колонок 3 и 4.py`
-4. Plot medians: run `src/Строим график медиан.py`
+Требуется реализовать обработку набора данных средствами языка Python:
+
+1. Сгенерировать CSV-файл объёмом 10^6 строк и 5 столбцов:
+   - time
+   - func1
+   - func2
+   - func3
+   - func4
+2. Вычислить среднее значение функции func1 (колонка 2).
+3. Построить графики функций func2 и func3 в зависимости от времени.
+4. Разбить значения func4 на 10 кортежей по 10^5 записей и
+   построить график медианных значений для каждого кортежа.
+
+## Структура проекта
+
+- `src/` — исходные Python-скрипты:
+  - генерация CSV-файла;
+  - вычисление среднего значения;
+  - построение графиков;
+- `data/` — входные данные (полный датасет генерируется локально);
+- `figures/` — построенные графики и иллюстрации;
+- `report/` — отчёт по работе (обезличенная версия).
+
+## Порядок выполнения
+
+1. Запустить скрипт генерации CSV-файла.
+2. Выполнить расчёт среднего значения функции func1.
+3. Построить графики func2 и func3.
+4. Построить график медиан значений func4.
