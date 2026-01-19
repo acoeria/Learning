@@ -1,0 +1,27 @@
+# ================================
+# IDZ-3: ML artifacts and outputs
+# ================================
+
+# Trained models / checkpoints
+artifacts/models/*
+!artifacts/models/.keep
+
+# Logs
+artifacts/logs/*
+!artifacts/logs/.keep
+
+# Numeric reports / temporary results
+artifacts/reports/*.tmp
+artifacts/reports/*.log
+
+# Processed / cached datasets
+data/processed/*
+!data/processed/.keep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
