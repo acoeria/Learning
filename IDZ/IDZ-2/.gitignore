@@ -1,0 +1,33 @@
+# ================================
+# IDZ-2: ignore generated artifacts
+# ================================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Generated / intermediate data (keep sources in data/)
+data/tmp/
+data/generated/
+data/output/
+data/processed/
+
+# If you generate big exports, keep them out
+exports/
+output/
+generated/
+
+# Archives (often contain private data)
+*.zip
+*.7z
+*.rar
+
