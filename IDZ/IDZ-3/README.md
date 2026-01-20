@@ -74,13 +74,13 @@
 pip install -r requirements.txt
 
 ## Запуск программы
-Все команды выполняются из каталога src/.
-Обучение модели python idz3.py --train
-Обучение с построением графиков python idz3.py --train --plots
-Запуск без обучения (загрузка сохранённых весов) python idz3.py
-Распознавание одного изображения python idz3.py --image путь_к_изображению.png
-Сохранение примеров из тестовой выборки python idz3.py --plots --samples 5
-Указание пользовательской директории для результатов python idz3.py --train --plots --out_dir outputs
+- Все команды выполняются из каталога src/.
+- Обучение модели python idz3.py --train
+- Обучение с построением графиков python idz3.py --train --plots
+- Запуск без обучения (загрузка сохранённых весов) python idz3.py
+- Распознавание одного изображения python idz3.py --image путь_к_изображению.png
+- Сохранение примеров из тестовой выборки python idz3.py --plots --samples 5
+- Указание пользовательской директории для результатов python idz3.py --train --plots --out_dir outputs
 
 ## Виртуальное окружение
 
